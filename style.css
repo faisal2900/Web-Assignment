@@ -1,0 +1,227 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding: 30px;
+    text-decoration: none;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.left,.right{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+.right{
+    margin-right: 100px;
+}
+.left{
+    margin-left: 50px;
+}
+.workspace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 58px;
+    background-color: #fff;
+}
+.left-content {
+    max-width: 40%;
+}
+
+.left-content h2 {
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.location-search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+.location-search input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.schedule {
+    padding: 10px 20px;
+    background-color: #ff6f3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.right-content {
+    position: relative;
+}
+
+.image {
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 130px;
+    margin-top: 150px;
+}
+
+.ellips-1, .ellips-2{
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.ellips-1 {
+    top: 110px;
+    right: 150px;
+    width: 280px;
+    height: 280px;
+   border: none;
+}
+
+.ellips-2 {
+    border: none;
+    bottom: 110px;
+    left:425px;
+    width: 220px;
+    height: 220px;
+}
+.ellips-3{ 
+    margin-bottom: 200px;
+    width: 250px;
+    height: 250px;
+   border: none;
+}
+.container {
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    /* padding: 1px; */
+    border-radius: 25px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    margin-left: 90px; /* Move container to the left */
+    margin-bottom: 30px; /* Space below the container */
+}
+.logo{
+    margin-top: 100px;
+}
+.avatars {
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+    margin-top: -200px;
+}
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1aecec;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    margin-right:30px; /* Add space after the last avatar */
+}
+
+.text {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.left-image {
+    position: relative;
+    left: 300px;
+    top: 200px;
+    }
+    
+    .workspace-image {
+    width: 450px; /* Larger image width to match the design */
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Slight shadow for depth */
+    }
+    
+    .calendar-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .calendar img {
+    width: 20px;
+    margin-top: -200px;
+    margin-left: 350px;
+    height: 200px;
+    width: 200px;
+    }
+   
+    body {
+        font-family: Arial, sans-serif;
+    }
+.right-image{
+    margin-left: 1000px;
+    margin-top: -300px;
+}
+.right-image h3 {
+    color: #f77343;
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    .right-image h2 {
+        font-size: 42px; /* Larger heading */
+        color: #4e4d4d;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        }
+    .right-image p {
+            font-size: 16px;
+            color: #5c5858;
+            margin-bottom: 30px;
+            line-height: 1.7;
+            }
+.button {
+          display: flex;
+             gap: 20px; /* Reduce gap slightly */
+     }
+
+  .view{
+    background-color: #f77343;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+border-radius: 5px;
+cursor: pointer;
+    font-size: 20px;
+  } 
+  .tour{
+    border: none;
+    background-color: white;
+    color: #f77343;
+    padding: 12px 30px;
+border-radius: 5px;
+cursor: pointer;
+    
+  }
+  
